@@ -11,9 +11,6 @@ spec:
     metadata:
       labels:
         app: python-rest-api
-      annotations:
-        fluxcd.io/automated: "true"
-        fluxcd.io/tag.python: "semver:~1.0.0"
     spec:
       containers:
       - name: python
