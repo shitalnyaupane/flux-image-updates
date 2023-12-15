@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   imageRepositoryRef:
-    name: podinfo
+    name: shital1999/python-rest-api
   policy:
     semver:
-      range: 0.x.0
+      range: "^0.x.0"
