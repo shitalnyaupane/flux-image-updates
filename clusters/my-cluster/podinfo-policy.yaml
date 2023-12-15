@@ -1,11 +1,12 @@
+---
 apiVersion: image.toolkit.fluxcd.io/v1beta2
-kind: ImageRepository
+kind: ImagePolicy
 metadata:
-  name: python-rest-api
+  name: podinfo
   namespace: flux-system
 spec:
-  image: docker.io/shital1999/python-rest-api
-  interval: 1m0s # Check for updates every minute
+  imageRepositoryRef:
+    name: podinfo
   policy:
     semver:
-      range: "^0.x-0"
+      range: 0.x.0
