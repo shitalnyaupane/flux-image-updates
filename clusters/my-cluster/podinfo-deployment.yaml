@@ -13,10 +13,10 @@ spec:
         app: python
     spec:
       containers:
-        - name: python
-          image: docker.io/shital1999/python-rest-api:v0.1.0
-          imagePullPolicy: Always
-          ports:
-            - name: http
-              containerPort: 9898
-              protocol: TCP
+      - name: python
+        image: docker.io/shital1999/python-rest-api:latest # Use "latest" for automatic updates
+        imagePullPolicy: Always # Pull and replace image for updates
+        ports:
+        - name: http
+          containerPort: 9898
+          protocol: TCP
