@@ -15,7 +15,7 @@ spec:
       containers:
       - name: python
         image: docker.io/shital1999/python-rest-api:latest # Use "latest" for automatic updates
-        imagePullPolicy: IfNotPresent # Pull and replace image for updates
+        imagePullPolicy: Always # Pull and replace image for updates
         ports:
         - name: http
           containerPort: 9898
