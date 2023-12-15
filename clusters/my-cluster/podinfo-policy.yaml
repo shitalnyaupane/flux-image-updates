@@ -6,6 +6,6 @@ metadata:
 spec:
   image: docker.io/shital1999/python-rest-api
   interval: 1m0s # Check for updates every minute
-  policy:
+  filter:
     semver:
       range: "^0.x-0"
