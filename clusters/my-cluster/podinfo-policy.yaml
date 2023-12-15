@@ -7,5 +7,5 @@ spec:
   image: docker.io/shital1999/python-rest-api
   interval: 1m0s # Check for updates every minute
   policy:
-    semver: # Filter for versions starting with v0.x.0
-      range: "^v0\\.\\d+$"
+    semver:
+      range: "^0.x-0"
