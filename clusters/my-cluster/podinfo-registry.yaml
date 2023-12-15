@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   image: docker.io/shital1999/python-rest-api
-  interval: 5m
+  interval: 1m
   policy:
     semver:
       range: "^0.x.0"
