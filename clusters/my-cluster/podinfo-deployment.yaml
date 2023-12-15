@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python
-        image: docker.io/shital1999/python-rest-api:latest # Use "latest" for automatic updates
+        image: docker.io/shital1999/python-rest-api # Use "latest" for automatic updates
         imagePullPolicy: Always # Pull and replace image for updates
         ports:
         - name: http
