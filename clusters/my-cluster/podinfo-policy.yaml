@@ -8,4 +8,4 @@ spec:
     name: python-rest-api
   policy:
     semver:
-      range: "^0.x.0"
+      range: '>= 1.0.0 <2.0.0'
