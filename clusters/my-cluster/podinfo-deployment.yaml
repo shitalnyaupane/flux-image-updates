@@ -14,9 +14,8 @@ spec:
     spec:
       containers:
       - name: python
-        image: docker.io/shital1999/python-rest-api
-        tag: # {"$imagepolicy": "flux-system:podinfo"}
-        imagePullPolicy: Always # Pull and replace image for updates
+        image: docker.io/shital1999/python-rest-api # {"$imagepolicy": "flux-system:python-rest-api"}
+        imagePullPolicy: Always 
         ports:
         - name: http
           containerPort: 9898
