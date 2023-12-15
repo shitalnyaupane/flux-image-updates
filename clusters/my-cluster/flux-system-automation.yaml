@@ -18,7 +18,7 @@ spec:
       branch: main
   interval: 1m0s
   sourceRef:
-    kind: gitRepository
+    kind: GitRepository
     name: flux-system
   update:
     path: ./clusters/my-cluster
