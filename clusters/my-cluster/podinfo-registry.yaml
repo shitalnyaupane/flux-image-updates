@@ -5,5 +5,5 @@ metadata:
   name: python
   namespace: flux-system
 spec:
-  image: docker.io/shital1999/pyhon-rest-api
+  image: docker.io/shital1999/python-rest-api
   interval: 1m0s
