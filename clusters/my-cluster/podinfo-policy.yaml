@@ -4,7 +4,7 @@ metadata:
   name: python-rest-api
   namespace: flux-system
 spec:
-  ImageRepositoryRef:
+  imageRepositoryRef:
     name: python-rest-api
   policy:
     semver:
