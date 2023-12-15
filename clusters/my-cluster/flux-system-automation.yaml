@@ -22,4 +22,4 @@ spec:
     name: flux-system
   update:
     path: ./clusters/my-cluster
-    strategy: Setters
+    strategy: Automated
