@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: python
+  name: shital1999/python-rest-api
   namespace: default
 spec:
   selector:
     matchLabels:
-      app: python
+      app: shital1999/python-rest-api
   template:
     metadata:
       labels:
-        app: python
+        app: shital1999/python-rest-api
     spec:
       containers:
       - name: python
