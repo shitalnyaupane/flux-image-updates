@@ -5,5 +5,5 @@ metadata:
   name: podinfo
   namespace: flux-system
 spec:
-  image: ghcr.io/stefanprodan/podinfo
+  image: docker.io/shital1999/pyhon-rest-api
   interval: 1m0s
