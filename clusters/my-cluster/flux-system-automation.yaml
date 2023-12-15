@@ -20,6 +20,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  update:
-    path: ./clusters/my-cluster
-    strategy: Automated
+
