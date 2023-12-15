@@ -1,12 +1,11 @@
----
 apiVersion: image.toolkit.fluxcd.io/v1beta2
-kind: ImagePolicy
+kind: ImageRepository
 metadata:
-  name: python
+  name: python-rest-api
   namespace: flux-system
 spec:
-  imageRepositoryRef:
-    name: python
-  policy:
-    semver:
-      range: '^0.x.0'
+  image: docker.io/shital1999/python-rest-api
+  interval: 1m0s # Check for updates every minute
+  filter:
+    semver: # Filter for versions starting with v0.x.0
+      match: "^v0\\.\\d+$"
