@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: python
-        image: docker.io/shital1999/python-rest-api:1.0.0
-        imagePullPolicy: IfNotPresent 
+        image: docker.io/shital1999/python-rest-api:latest
+        imagePullPolicy: Always
         ports:
         - name: http
           containerPort: 9898
