@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python
-        image: docker.io/shital1999/python-rest-api:1.0.0 # {"$imagepolicy": "flux-system:podinfo"}
+        image: docker.io/shital1999/python-rest-api:1.0.0  {"$imagepolicy": "flux-system:python-rest-api"}
         imagePullPolicy: Always
         ports:
         - name: http
