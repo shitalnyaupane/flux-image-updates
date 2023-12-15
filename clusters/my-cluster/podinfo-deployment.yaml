@@ -13,8 +13,8 @@ spec:
         app: podinfo
     spec:
       containers:
-        - name: podinfod
-          image: ghcr.io/stefanprodan/podinfo:5.0.0
+        - name: python-flux
+          image: docker.io/shital1999/python-rest-api:v0.1.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
