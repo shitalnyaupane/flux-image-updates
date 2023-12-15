@@ -9,4 +9,4 @@ spec:
     name: python
   policy:
     semver:
-      range: 0.1.0
+      range: '^0.x.0'
