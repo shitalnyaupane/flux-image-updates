@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: python
-          image: docker.io/shital1999/python-rest-api:~0.x.0
+          image: docker.io/shital1999/python-rest-api:v0.1.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
