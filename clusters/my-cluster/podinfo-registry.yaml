@@ -2,7 +2,7 @@
 apiVersion: image.toolkit.fluxcd.io/v1beta2
 kind: ImageRepository
 metadata:
-  name: podinfo
+  name: python
   namespace: flux-system
 spec:
   image: docker.io/shital1999/pyhon-rest-api
