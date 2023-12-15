@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: podinfo
+  name: python
   namespace: default
 spec:
   selector:
     matchLabels:
-      app: podinfo
+      app: python
   template:
     metadata:
       labels:
-        app: podinfo
+        app: python
     spec:
       containers:
-        - name: python-flux
+        - name: python
           image: docker.io/shital1999/python-rest-api:v0.1.0
           imagePullPolicy: IfNotPresent
           ports:
