@@ -6,6 +6,6 @@ metadata:
 spec:
   image: docker.io/shital1999/python-rest-api
   interval: 1m0s # Check for updates every minute
-  filter:
+  policy:
     semver: # Filter for versions starting with v0.x.0
-      match: "^v0\\.\\d+$"
+      range: ^0.x-0
