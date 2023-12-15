@@ -19,7 +19,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: ImageRepository
-    name: shital1999/python-rest-api
+    name: python-rest-api
   update:
     path: ./clusters/my-cluster
     strategy: Setters
