@@ -6,6 +6,4 @@ metadata:
 spec:
   image: docker.io/shital1999/python-rest-api
   interval: 1m
-  policy:
-    semver:
-      range: "^0.x.0"
+
